@@ -1,0 +1,20 @@
+# Python Environment
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Large raw dataset files (exceeding standard GitHub push limits)
+# Download link provided in README
+data/tokenized_access_logs.csv
+# Uncomment if raw CSV is too large for GitHub upload:
+# data/DataCoSupplyChainDataset.csv
+
+# Temporary files
+*.tmp
+.ipynb_checkpoints/
